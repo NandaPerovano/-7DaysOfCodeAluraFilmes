@@ -24,7 +24,6 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.view.backgroundColor = .systemPurple
         self.homeScreen?.configTableViewProtocols(delegate: self, datasource: self)
     }
 }

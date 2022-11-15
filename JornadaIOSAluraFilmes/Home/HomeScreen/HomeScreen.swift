@@ -22,7 +22,7 @@ class HomeScreen: UIView {
        let tableview = UITableView()
         tableview.translatesAutoresizingMaskIntoConstraints = false
         tableview.register(UserDetailTableViewCell.self, forCellReuseIdentifier: UserDetailTableViewCell.identifier)
-        tableview.backgroundColor = .systemPurple
+        tableview.backgroundColor = .purple
         return tableview
     }()
     

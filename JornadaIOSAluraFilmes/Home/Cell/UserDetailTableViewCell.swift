@@ -12,7 +12,6 @@ class UserDetailTableViewCell: UITableViewCell {
     static let identifier: String = "UserDetailTableViewCell"
     
     lazy var mainStackView: UIStackView = {
-        //let stack = UIStackView(arrangedSubviews: [movieImage])
         let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.axis = .horizontal

@@ -11,10 +11,10 @@ class HomeVC: UIViewController {
     
     var homeScreen: HomeScreen?
     var addFilmes: [Service] = [
-        Service(title: "Órfã 2: A Origem", release_data: "Lançamento: 27/09/22", poster_path: UIImage(named: "filme")),
-        Service(title: "Minions 2: A Origem de Gru", release_data: "Lançamento: 30/06/22", poster_path: UIImage(named: "filme")),
-        Service(title: "Thor: Amor e Trovão", release_data: "Lançamento: 07/07/22", poster_path: UIImage(named: "filme")),
-        Service(title: "Avatar", release_data: "Lançamento: 18/12/22", poster_path: UIImage(named: "filme"))
+        Service(title: "Órfã 2: A Origem", release_data: "Lançamento: 27/09/22", poster_path: UIImage(named: "mudancaDeHabito")),
+        Service(title: "Minions 2: A Origem de Gru", release_data: "Lançamento: 30/06/22", poster_path: UIImage(named: "mudancaDeHabito")),
+        Service(title: "Thor: Amor e Trovão", release_data: "Lançamento: 07/07/22", poster_path: UIImage(named: "mudancaDeHabito")),
+        Service(title: "Avatar", release_data: "Lançamento: 18/12/22", poster_path: UIImage(named: "mudancaDeHabito"))
     ]
     
     override func loadView() {
